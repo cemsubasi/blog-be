@@ -11,7 +11,9 @@
 *.sln.docstates
 
 # env file
-./Infra/src/config.*
+./Infra/src/config.json
+./Infra/src/config.Production.json
+src/config.*
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs

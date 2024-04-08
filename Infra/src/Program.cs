@@ -37,8 +37,6 @@ Log.Information("Environment is {0}", configuration["environment"]);
 
 var config = TypeAdapterConfig.GlobalSettings;
 config.AllowImplicitDestinationInheritance = true;
-PostMapper.Map(config);
-CommentMapper.Map(config);
 
 builder.Services.AddControllers(options => {
   options.Filters.Add<HttpResponseExceptionFilter>();
